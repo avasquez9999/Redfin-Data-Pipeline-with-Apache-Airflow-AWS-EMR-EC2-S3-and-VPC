@@ -1,4 +1,4 @@
-# Redfin-Big-Data-Pipeline-with-Apache-Airflow-AWS-EMR-EC2-S3-and-VPC
+# Redfin-Big-Data-Automated-Pipeline-with-Apache-Airflow-AWS-EMR-EC2-S3-and-VPC
 ## Overview
 This project automates the extraction, transformation, and processing of Redfin housing market data using Apache Airflow, AWS EMR, PySpark, and S3. The workflow is designed to efficiently handle large-scale data processing using distributed computing.
 
@@ -35,10 +35,15 @@ EMR cluster is automatically terminated after processing to optimize AWS costs.
 
 ## Tech Stack
 Apache Airflow – Orchestration
+
 AWS EC2 – Development & Airflow Host
+
 AWS VPC – Secure Networking for SSH & EMR Connectivity
+
 AWS EMR – Distributed Computing with Spark
+
 PySpark – Data Transformation
+
 AWS S3 – Data Storage
 
 ## Project Files
